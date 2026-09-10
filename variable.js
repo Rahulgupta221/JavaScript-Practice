@@ -1,7 +1,8 @@
 const AccountId = 151561
 let Email = "rahul@gmail.com"
 var Password = "1234"
-AccountCity = "Prayagraj"
+Acc8
+ountCity = "Prayagraj"
 let AccountState;
 
 console.log(AccountId);
