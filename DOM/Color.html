@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="gray">
+            <button onclick="change('gray')">gray</button>
+        </div>
+
+        <div class="yellow">
+            <button onclick="change('yellow')">yellow</button>
+        </div>
+
+        <div class="blue">
+            <button onclick="change('blue')">Blue</button>
+        </div>
+
+        <div class="peach">
+            <button onclick="change('peach')">Peach</button>
+        </div>
+    </div>
+</body>
+<script>
+    function change(color) {
+        let main = document.querySelector(".main")
+
+        if (color === "gray") {
+            document.body.style.backgroundColor = "gray"
+        }
+
+        if (color === "yellow") {
+            document.body.style.backgroundColor = "yellow"
+        }
+
+        if (color === "blue") {
+            document.body.style.backgroundColor = "blue"
+        }
+
+        if (color === "peach") {
+            document.body.style.backgroundColor = "#FFDAB9"
+        }
+    }
+</script>
+</html>

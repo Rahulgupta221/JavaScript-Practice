@@ -1,53 +1,20 @@
-// For of====>
+// For_Each function in js
 
-// const array =["","",""]
-// let aarr = [{},{},{}]
+const arr = ["pt","java","cpp","ruby"]
 
-// Example Q1
-
-// const val = [1,2,3,4,5,6]
-
-// for (const nums of val) {
-//     console.log(nums);
+// arr.forEach(function(val){
+//     console.log(val);
     
+
+// })
+
+// arr.forEach((item)=>{
+// console.log(item);
+
+// })
+
+// function print(item){
+// console.log(item);
+
 // }
-
-// Ex Q2
-
-// const arrName = "Hello world"
-// for (const greet of arrName) {
-//     console.log(`Each char is ${greet}`);
-    
-// }
-
-
-// Map Function =====>
-
-// const map = new Map()
-// map.set("IN","India")
-// map.set("US","America")
-// map.set("Fr","France")
-// map.set("IN","India")
-
-// // console.log(map);
-
-// for (const key of map) {
-//  console.log(key);
-    
-// }
-
-
-// For in Function ===>
-
-// let myobj ={
-//     js: "script",
-//     cpp: "c++",
-//     rb:"ruby",
-//     py:"python"
-// }
-
-// for (const key in myobj) {
-
-//     console.log(key);
-    
-// }
+// arr.forEach(print)

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+</style>
+<body>
+    <p id="login">LogOut User </p>
+    <button onclick="change()">Click</button>
+
+    <ul>
+        <li>one</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <div class="parent">
+        <div class="days">Monday</div>
+        <div class="days">tuesday</div>
+        <div class="days">Wednesday</div>
+        <div class="days">Thursday</div>
+    </div>
+
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+   const removelang = document.querySelector("Li:last-child")
+   removelang.remove()
+
+
+
+    // function change() {
+    //     let log = document.getElementById("login");
+    //     log.innerHTML = "Welcome User ";
+    //     let li = document.createElement("li");
+    //     li.innerHTML = "User Name Ramesh"
+    //     log.appendChild(li);
+    // }
+    // document.querySelector("ul")
+    // const parent = document.querySelector(".parent")
+</script>
+</html>
